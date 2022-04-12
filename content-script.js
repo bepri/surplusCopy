@@ -6,8 +6,9 @@ function getOutput() {
     let tag = document.getElementById("CF-23-ShowRow").getElementsByClassName("value");
     
     let fullStr = name[0].innerText.substring(6) + "\n" + description[0].innerText.substring(13) + "\n" + "Serial Number: " + serial[0].innerText + "\n" + "UT Tag: " + tag[0].innerText;
-    
+
     console.log(fullStr);
+    let copied = navigator.clipboard.writeText(fullStr);
 }
 
 let surplusBtn = document.getElementById(
