@@ -1,6 +1,7 @@
 # surplusCopy
 
-1. Go to chrome://extensions
-2. Turn on developer mode
-3. Click load unpacked
-4. Select the folder that contains manifest.json
+1. Download and extract the zip
+2. Go to chrome://extensions
+3. Turn on developer mode
+4. Click load unpacked
+5. Select the folder that contains manifest.json
