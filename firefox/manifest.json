@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Surplus Copier",
+  "version": "1.0",
+
+  "description": "Extension to copy surplus informtion in the correct format",
+
+  "content_scripts": [
+    {
+      "matches": ["https://rt.eecs.utk.edu/Asset/Display.html*"],
+      "js": ["content-script.js"]
+    }
+  ],
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "permissions": ["activeTab"]
+}
